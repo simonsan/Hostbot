@@ -1,5 +1,5 @@
-# Hostbot
-This is a simple hostbot that will automatically host a list of given channels, sorted by their priorities, when they go online. It will keep hosting a channel until it goes offline and then re-host a new channel afterwards.
+# TV-Autohostbot
+This is a simple autohosting bot that should imitate the behaviour of Mixers ChannelOne. It will automatically host a list of given channels, sorted by priorities that are based on the channels viewer numbers. This should make sure that smaller channels get some attention and should take away the burden from bigger channels to decide which channel they give their host. It will keep hosting a channel for a certain time period or until it goes offline and then re-hosts a new channel afterwards. If there are no channels left on the hosting list it will pull in new channels from a search result and give them also priorities based on viewer numbers and continues to host them.
 
 ## Features
 - Continuous hosting of channels per the priority list. Once a channel goes offline, it will automatically attempt to find a new live channel to host following the priorities in the priority list.
